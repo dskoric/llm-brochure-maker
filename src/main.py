@@ -1,5 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__))))
 import argparse
-from llm.brochure_generator import BrochureGenerator
+from src.llm.brochure_generator import BrochureGenerator  #from llm.brochure_generator import BrochureGenerator
 
 def main():
     parser = argparse.ArgumentParser(description='Generate company brochures using LLM')

@@ -19,15 +19,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Install dependencies:
 pip install -r requirements.txt
 
-
 Setup
 Option 1: Using OpenAI API
 1. Copy the environment template:
 cp .env.example .env
 
-2. Edit .env file and add your OpenAI API key:
-OPENAI_API_KEY=your_openai_api_key_here
-
+2. Edit .env file and add your OpenAI API k.e.y.:
+OPENAI_API_KEY.=your_openai_api_key_here
 
 Option 2: Using Ollama (Free Alternative)
 
@@ -53,7 +51,6 @@ python -m src.main "Company Name" "https://company-website.com" --output brochur
 
 Generate a humorous brochure:
 python -m src.main "Company Name" "https://company-website.com" --tone humorous
-
 
 Python API
 from src.llm.brochure_generator import BrochureGenerator
@@ -92,3 +89,4 @@ For Ollama issues, ensure the Ollama service is running and the model is downloa
 If website scraping fails, some sites may have anti-scraping measures
 License
 This project is open source and available under the MIT License.
+

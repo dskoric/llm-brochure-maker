@@ -1,5 +1,5 @@
 from openai import OpenAI
-from ..scraper.website import Website
+from src.scraper.website import Website #from ..scraper.website import Website
 from .link_analyzer import LinkAnalyzer
 from ..utils.config import MODEL, openai
 

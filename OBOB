@@ -1,0 +1,16 @@
+.env.example
+.gitignore
+README.md
+requirements.txt
+src/__init__.py
+src/llm/__init__.py
+src/llm/brochure_generator.py
+src/llm/link_analyzer.py
+src/main.py
+src/scraper/__init__.py
+src/scraper/website.py
+src/utils/__init__.py
+tests/__init__.py
+tests/test_integration.py
+tests/test_llm.py
+tests/test_scraper.py
