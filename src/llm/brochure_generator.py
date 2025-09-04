@@ -15,7 +15,7 @@ class BrochureGenerator:
         """Set the system prompt based on desired tone"""
         if self.tone == "humorous":
             self.system_prompt = """You are an assistant that analyzes the contents of several relevant pages from a company website 
-            and creates a short humorous, entertaining, jokey brochure about the company for prospective customers, investors and recruits. Respond in markdown.
+            and creates a short humorous, entertaining brochure about the company for prospective customers, investors and recruits. Respond in markdown.
             Include details of company culture, customers and careers/jobs if you have the information."""
         else:
             self.system_prompt = """You are an assistant that analyzes the contents of several relevant pages from a company website 
